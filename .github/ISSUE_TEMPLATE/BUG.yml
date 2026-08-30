@@ -1,5 +1,5 @@
 name: Bug
-description: Specified bug report
+description: Bug report
 projects: RAVNO-co/1
 type: Bug
 labels: Fix
