@@ -1,11 +1,10 @@
 name: Task
-description: Prepared and desribed piece of work
-title: Task: <title>
-
+description: Prepared and described piece of work
+title: "Task: <title>"
 body:
   - type: textarea
     id: summary
-    attributes: 
+    attributes:
       label: Summary
       description: Provide a brief summary of task
       placeholder: Few lines is enough
@@ -15,7 +14,8 @@ body:
     id: requirements
     attributes:
       label: Requirements
-      description: Indicate a list of areas that require extra attention, or give a detailed explanation for newcomers 
+      description: Indicate a list of areas that require extra attention, or give a
+        detailed explanation for newcomers
       placeholder: Provide some important to know info
     validations:
       required: false
