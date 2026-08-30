@@ -1,6 +1,5 @@
 name: Task
 description: Prepared and described piece of work
-title: "Task: <title>"
 projects: RAVNO-co/1
 type: Task
 body:
