@@ -1,0 +1,27 @@
+name: Bug
+description: Specified bug report
+projects: RAVNO-co/1
+type: Bug
+labels: Fix
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Enter an description of the bug you are encountering
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: reprod
+    attributes:
+      label: Steps to reproduce
+      description: Please enter the exact steps to reproduce the issue
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: false
