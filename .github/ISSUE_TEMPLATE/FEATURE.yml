@@ -1,0 +1,24 @@
+name: Feature
+description: Feature request
+projects: RAVNO-co/1
+type: Featue
+labels: Feature
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a brief summary of your feature request
+      placeholder: Few lines is enough
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: Describe what benefits this feature will give
+      placeholder: 
+      render: bash
+    validations:
+      required: false
