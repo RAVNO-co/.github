@@ -19,6 +19,5 @@ body:
       label: Use case
       description: Describe what benefits this feature will give
       placeholder: 
-      render: bash
     validations:
       required: false
