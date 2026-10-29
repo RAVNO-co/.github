@@ -1,8 +1,8 @@
-name: Feature
+name: Request
 description: Feature request
 projects: RAVNO-co/1
-type: Feature
-labels: Feature
+type: Request
+labels: Request
 
 body:
   - type: textarea
@@ -18,6 +18,14 @@ body:
     attributes:
       label: Use case
       description: Describe what benefits this feature will give
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation details
+      description: Provide your vision on implementation
       placeholder: 
     validations:
       required: false
